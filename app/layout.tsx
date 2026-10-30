@@ -19,9 +19,11 @@ const description =
   "Freelance developer building Qt/C++ desktop apps, video and camera software, and mobile apps that control hardware.";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://tanishqq-sharmaa.vercel.app"),
+  alternates: { canonical: "/" },
   title,
   description,
-  openGraph: { title, description, type: "website" },
+  openGraph: { title, description, type: "website", url: "/" },
   twitter: { card: "summary_large_image", title, description },
 };
 
